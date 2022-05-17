@@ -1,3 +1,3 @@
-export const Display = () => {
-  return <div></div>;
+export const Display = (props: { value: string }) => {
+  return <div>{props.value}</div>;
 };

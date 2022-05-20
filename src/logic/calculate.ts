@@ -31,7 +31,7 @@ export const calculate = (button: string, state: State): State => {
         current: button,
         operand: state.operand,
         operator: state.operator,
-        isNextClear: true
+        isNextClear: false
       };
     }
     if (state.current === "0") {

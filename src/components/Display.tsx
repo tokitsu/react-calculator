@@ -1,3 +1,3 @@
 export const Display = (props: { value: string }) => {
-  return <div>{props.value}</div>;
+  return <h3>{props.value}</h3>;
 };

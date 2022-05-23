@@ -1,2 +1,1 @@
-# react-calculator
-Created with CodeSandbox
+# 計算機アプリ（react-typescript）

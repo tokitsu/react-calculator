@@ -24,6 +24,7 @@ export const ButtonPanel = (props: {
       <div>
         <button onClick={() => props.buttonHandler("0")}>0</button>
         <button onClick={() => props.buttonHandler("D")}>D</button>
+        <button onClick={() => props.buttonHandler(".")}>.</button>
         <button onClick={() => props.buttonHandler("=")}>=</button>
       </div>
     </div>
